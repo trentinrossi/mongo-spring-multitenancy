@@ -1,4 +1,4 @@
-package br.com.fullcustom.workshopmongo.domain;
+package br.com.fullcustom.multitenancy.domain;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -8,8 +8,8 @@ import java.util.List;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import br.com.fullcustom.workshopmongo.dto.AuthorDTO;
-import br.com.fullcustom.workshopmongo.dto.CommentDTO;
+import br.com.fullcustom.multitenancy.dto.AuthorDTO;
+import br.com.fullcustom.multitenancy.dto.CommentDTO;
 
 @Document
 public class Post implements Serializable {

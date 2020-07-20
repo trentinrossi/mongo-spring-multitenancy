@@ -1,4 +1,4 @@
-package br.com.fullcustom.workshopmongo.services.exceptions;
+package br.com.fullcustom.multitenancy.services.exceptions;
 
 public class ObjectNotFoundException extends RuntimeException {
 

@@ -1,4 +1,4 @@
-package br.com.fullcustom.workshopmongo.domain;
+package br.com.fullcustom.multitenancy.domain;
 
 import java.io.Serializable;
 import java.util.ArrayList;

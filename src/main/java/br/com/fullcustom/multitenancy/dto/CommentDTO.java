@@ -1,4 +1,4 @@
-package br.com.fullcustom.workshopmongo.dto;
+package br.com.fullcustom.multitenancy.dto;
 
 import java.io.Serializable;
 import java.util.Date;

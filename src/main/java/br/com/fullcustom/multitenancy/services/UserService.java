@@ -1,4 +1,4 @@
-package br.com.fullcustom.workshopmongo.services;
+package br.com.fullcustom.multitenancy.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,10 +6,10 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.fullcustom.workshopmongo.domain.User;
-import br.com.fullcustom.workshopmongo.dto.UserDTO;
-import br.com.fullcustom.workshopmongo.repository.UserRepository;
-import br.com.fullcustom.workshopmongo.services.exceptions.ObjectNotFoundException;
+import br.com.fullcustom.multitenancy.domain.User;
+import br.com.fullcustom.multitenancy.dto.UserDTO;
+import br.com.fullcustom.multitenancy.repository.UserRepository;
+import br.com.fullcustom.multitenancy.services.exceptions.ObjectNotFoundException;
 
 @Service
 public class UserService {

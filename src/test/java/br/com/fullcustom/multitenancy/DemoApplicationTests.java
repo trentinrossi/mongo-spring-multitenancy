@@ -1,4 +1,4 @@
-package br.com.fullcustom.workshopmongo;
+package br.com.fullcustom.multitenancy;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

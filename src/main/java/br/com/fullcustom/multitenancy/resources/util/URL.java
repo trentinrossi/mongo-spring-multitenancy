@@ -1,4 +1,4 @@
-package br.com.fullcustom.workshopmongo.resources.util;
+package br.com.fullcustom.multitenancy.resources.util;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;

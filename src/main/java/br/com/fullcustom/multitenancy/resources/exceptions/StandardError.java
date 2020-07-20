@@ -1,4 +1,4 @@
-package br.com.fullcustom.workshopmongo.resources.exceptions;
+package br.com.fullcustom.multitenancy.resources.exceptions;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package br.com.fullcustom.workshopmongo.resources;
+package br.com.fullcustom.multitenancy.resources;
 
 import java.util.Date;
 import java.util.List;
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.fullcustom.workshopmongo.domain.Post;
-import br.com.fullcustom.workshopmongo.resources.util.URL;
-import br.com.fullcustom.workshopmongo.services.PostService;
+import br.com.fullcustom.multitenancy.domain.Post;
+import br.com.fullcustom.multitenancy.resources.util.URL;
+import br.com.fullcustom.multitenancy.services.PostService;
 
 @RestController
 @RequestMapping(value = "/posts")

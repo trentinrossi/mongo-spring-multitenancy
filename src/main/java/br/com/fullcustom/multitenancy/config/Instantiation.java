@@ -1,4 +1,4 @@
-package br.com.fullcustom.workshopmongo.config;
+package br.com.fullcustom.multitenancy.config;
 
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
@@ -8,12 +8,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 
-import br.com.fullcustom.workshopmongo.domain.Post;
-import br.com.fullcustom.workshopmongo.domain.User;
-import br.com.fullcustom.workshopmongo.dto.AuthorDTO;
-import br.com.fullcustom.workshopmongo.dto.CommentDTO;
-import br.com.fullcustom.workshopmongo.repository.PostRepository;
-import br.com.fullcustom.workshopmongo.repository.UserRepository;
+import br.com.fullcustom.multitenancy.domain.Post;
+import br.com.fullcustom.multitenancy.domain.User;
+import br.com.fullcustom.multitenancy.dto.AuthorDTO;
+import br.com.fullcustom.multitenancy.dto.CommentDTO;
+import br.com.fullcustom.multitenancy.repository.PostRepository;
+import br.com.fullcustom.multitenancy.repository.UserRepository;
 
 @Configuration
 public class Instantiation implements CommandLineRunner {

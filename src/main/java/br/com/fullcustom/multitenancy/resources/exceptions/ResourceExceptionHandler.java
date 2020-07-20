@@ -1,4 +1,4 @@
-package br.com.fullcustom.workshopmongo.resources.exceptions;
+package br.com.fullcustom.multitenancy.resources.exceptions;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import br.com.fullcustom.workshopmongo.services.exceptions.ObjectNotFoundException;
+import br.com.fullcustom.multitenancy.services.exceptions.ObjectNotFoundException;
 
 @ControllerAdvice
 public class ResourceExceptionHandler {
